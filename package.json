@@ -1,7 +1,7 @@
 {
   "name": "plumbuslandingpage",
   "version": "1.0.0",
-  "description": "A parady product landing page",
+  "description": "A parody product landing page",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass main.scss styles.css"

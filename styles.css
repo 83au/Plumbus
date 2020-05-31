@@ -58,11 +58,11 @@ body {
   height: 100%; }
 
 #nav-bar {
+  position: relative;
+  left: 30%;
   display: flex;
-  justify-self: end;
   align-self: center;
-  grid-column: 2 / 5;
-  margin-right: 2rem; }
+  grid-column: 2 / 5; }
 
 .nav-link {
   margin: 0 2rem;
@@ -255,12 +255,11 @@ footer {
     .footer-nav a:hover {
       color: #E63D7D; }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1025px) {
   html {
     font-size: 50%; }
   #nav-bar {
-    justify-self: center;
-    margin-right: 0; }
+    left: 40%; }
   .nav-link {
     margin: 0 1rem; }
   #banner {
@@ -286,10 +285,11 @@ footer {
     font-size: 1rem;
     letter-spacing: .8px; } }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   html {
     font-size: 40%; }
   #nav-bar {
+    left: 0;
     justify-self: stretch;
     grid-column: 2 / 7;
     justify-content: space-around; }
